@@ -1,0 +1,113 @@
+.todos-container {
+    margin-left: 100px;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(0.05rem);
+    height: 500px;
+    width: 50%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.todo-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.todo-form input:focus {
+    outline: 1px solid black;
+}
+
+.add-button {
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(176, 198, 212, 0.8);
+    border: none;
+    font-size: 0.75rem;
+    height: 20px;
+    width: 70px;
+    cursor: pointer;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    box-shadow: 3px 3px 5px rgb(149, 163, 172);
+}
+
+.todo-input {
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    outline: none;
+    text-align: center;
+}   
+
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-idx {
+    width: 10px;
+    font-weight: 700;
+    margin-right: 5px;
+    font-family: 'Lato', sans-serif;
+    text-transform: full-width;
+}
+
+.todo-info {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 260px;
+    text-align: left;
+}
+
+.edit-todo-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.todo-icons {
+    display: flex;
+}
+
+.edit-button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    cursor: pointer;
+}
+
+.confirm-button {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    cursor: pointer;
+}
+
+.todos-list {
+    overflow: scroll;
+    height: calc(100% - 128px);
+}
